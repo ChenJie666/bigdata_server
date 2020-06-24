@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.32.244:3306/device_log?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: hxr
+
+#mybatis-plus:
+#  type-aliases-package: com.hxr.bigdata.entities
+#  mapper-locations:
